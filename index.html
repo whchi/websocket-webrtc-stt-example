@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      #sttrst {
+        border: 1px dotted lightblue;
+        max-width: 500px;
+        width: 100%;
+        direction: rtl;
+      }
+      button {
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <button id="start" data-sttservice="google">start</button>
+    <button id="stop" disabled="disabled ">stop</button>
+    <select id="sttservicetype">
+      <option value="google" data-bufl="4096" selected>google</option>
+      <!-- <option value="microsoft" data-bufl="1365">microsoft</option> -->
+    </select>
+    <section id="sttrst"></section>
+    <script src="record.js"></script>
+  </body>
+</html>
